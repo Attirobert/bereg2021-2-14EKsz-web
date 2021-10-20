@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input példák</title>
+</head>
+<body>
+    <form action="03-bevit.php" method="get">
+        Felhasználó: <input type="text" name="felhasznalo">
+        <br><br>
+        <textarea name="cim" id="cim" cols="30" rows="10">Ez a cím helye</textarea><br>
+        <br>
+        Válasszon!
+        <br>
+        <select name="szerszamok[]" id="szerszamok">
+            <option value="Csavarhúzó">Csavarhúzó</option>
+            <option value="Kalapács">Kalapács</option>
+            <option value="Véső">Véső</option>
+            <option value="Balta">Balta</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="termekek[]" value="Kanyarfúró">Kanyarfúró<br>
+        <input type="checkbox" name="termekek[]" value="Csigafúró">Csigafúró<br>
+        <input type="checkbox" name="termekek[]" value="Gumikalapács">Gumikalapács<br>
+        <input type="checkbox" name="termekek[]" value="Deszka">Deszka<br>
+        <br><br>
+        <input type="color" name="szin" id="szin">
+        <input type="submit" value="Rendben">
+    </form>
+</body>
+</html>
